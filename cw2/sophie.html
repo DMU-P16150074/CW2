@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophie Tea - Pretty Face </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/home/icon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div id="flexhead" >
+      <div class="headerimg">
+          <a href="home.html">
+            <img src="./images/home/header.png" alt="logo" class="responsive">
+          </a>
+        </div>
+        <div id="flexmenu">
+          <a class="headtext notactive" href="gallery.html">GALLERY</a>
+      <div class="dropdown1">
+        <button class="dropbtn1"></button>
+          <a class="headtext notactive" href="artistpage.html">ARTISTS</a>
+     <div class="dropdown-content1">
+          <a href="grace.html"> Grace Weaver</a>
+          <a href="becky.html"> Becky Koslrud</a>
+          <a href="danielle.html"> Danielle Weber</a>
+          <a href="jess.html">Jess Swan</a>
+          <a href="maisey.html">Maisey Clark</a>
+          <a href="sophie.html">Sophie Tea</a>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1"></button>
+          <a class="headtext notactive" href="about.html">ABOUT</a>
+     <div class="dropdown-content1">
+          <a href="about.html"> About us</a>
+          <a href="women.html"> Why women?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="burger">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="home.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="artistpage.html">Artists</a>
+          <a href="about.html">About</a>
+          <a href="women.html">Why women?</a>
+        </div>
+      </div>
+      <div class="mobhead">
+      <span onclick="openNav()">
+        <label id="hamburger" class="burger">&#9776;</label>
+      </span>
+        <a class="mobheader" href="home.html">
+          <img src="./images/home/header.png" alt="logo" class="mobheader">
+        </a>
+      </div>
+      </div>
+
+    <div class="line" ></div>
+
+    <section class="beckyhead">
+      <h2 class="beckytitle"> SOPHIE TEA </h2>
+    </section>
+
+    <section class="art-intro">
+      <div class="beckyflex">
+      <img class="beckyimg" src="./images/artisthome/sophiecircle2.png" alt="Sophie Tea">
+        <div class="top-section">
+          <h1 class="artists-head"> "Breaking the
+            traditional gallery route" </h1>
+          <p class="artists-text"> Sophie prides herself on breaking the
+            traditional gallery route having made her name independently on
+            social media. <br>
+            After graduating with a first-class degree in Business,
+            Sophie went on to start her entrepreneurial journey by developing a
+            ‘Tinder for Art’ app. She began painting to fund this venture but
+            soon found it more lucrative to pursue Sophie Tea Art.
+            <br>
+            Fast forward to now Sophie has studios, galleries and teams in both
+            London and Sydney and a relentless demand for her artworks.
+
+</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="introvideo">
+      <h2 class="infovid"> FIND OUT MORE </h2>
+        <div class="videoflex">
+          <video class="videocontrols" poster="./images/thumbnails/sophiethumb.png" controls>
+            <source src="./video/Sophietea.mp4" type="video/mp4">
+            <source src="./video/Sophietea.webm" type="video/webm">
+            <source src="./video/Sophietea.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    </section>
+
+<section class="galleryart">
+  <div class="singleintro">
+    <h3 class="singleintrohead">THEIR WORK</h3>
+    <p class="singledescript">Find out more about their work by looking into their individual pieces. </p>
+  </div>
+    <div class="row3">
+      <div class="column3">
+        <img src="./images/gallery/sophie/auroraf.png"  alt="Aurora" onclick="openModal();currentSlide(1)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Aurora</h1>
+            <p class="art-descrip">Such a peaceful, angelic colour scheme.
+              We're in love!</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/sophie/happymealf.png" alt="Happy Meal" onclick="openModal();currentSlide(2)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Happy Meal</h1>
+            <p class="art-descrip">One of Sophie's 100 days of love creations.
+              Check out more about her 100 days of love
+              <a href="https://www.sophieteaart.com/originals-100-days-of-love-challenge">here.</a>
+            </p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/sophie/moonnbackf.png" alt="Moon and back" onclick="openModal();currentSlide(3)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Moon and Back</h1>
+            <p class="art-descrip">BEAUTIFUL, The style that blew up the
+              internet and made Sophie who she is now.</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/sophie/princef.png" alt="Prince" onclick="openModal();currentSlide(4)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Prince</h1>
+            <p class="art-descrip">Sophie decided to create a piece of art in
+              memory of her favourite artist, Prince.</p>
+          </div>
+      </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides3">
+          <div class="numbertext">1 / 4</div>
+          <img src="./images/gallery/sophie/auroraf.png" alt="Aurora" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">2 / 4</div>
+          <img src="./images/gallery/sophie/happymealf.png" alt="Happy Meal" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">3 / 4</div>
+          <img src="./images/gallery/sophie/moonnbackf.png" alt="Moon and back" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">4 / 4</div>
+          <img src="./images/gallery/sophie/princef.png" alt="Prince" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column4">
+          <img class="demo" src="./images/gallery/sophie/auroraf.png" onclick="currentSlide(1)" alt="Aurora">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/sophie/happymealf.png" onclick="currentSlide(2)" alt="Happy Meal">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/sophie/moonnbackf.png" onclick="currentSlide(3)" alt="Moon and back">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/sophie/princef.png" onclick="currentSlide(4)" alt="Prince">
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="socials">
+    <div class="socialbubble">
+      <a class="weblink2" href="https://www.instagram.com/sophieteaart/?hl=en">
+        <img src="./images/home/insta.png" alt="Instagram logo">
+      </a>
+      <a href="https://www.sophieteaart.com/">
+        <h4 class="weblink">SophieTeaArt.com</h4>
+      </a>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+  <div id="line" ></div>
+    <img class="footimg" src="./images/logos/logo.png" alt="Footer Logo">
+    <div style="flex-grow: 8" class="foottext">
+      <h4> 	&#169; 2021 NOT JUST A PRETTY FACE </h4>
+      <h5> SITE BY AMBER ABBOTT </h5>
+    </div>
+</footer>
+
+
+    <script src="artistsscript.js"></script>
+
+
+
+  </body>
+</html>

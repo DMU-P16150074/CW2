@@ -1,0 +1,1989 @@
+
+#form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nameForm {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobhead {
+  display: flex;
+  flex-direction: row;
+}
+.mobheader {
+  margin: auto;
+  max-width: 100%;
+}
+
+#blankspace{
+  height: 800px;
+}
+
+.line {
+  margin-top: 5px;
+  height: 1.5px;
+  background-color: Black;
+  margin-bottom: 15px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url(./images/artisthome/background.png);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.responsive {
+  width: 90%;
+  height: auto;
+  max-width: 800px;
+
+}
+
+#flexhead {
+  display: none;
+}
+
+
+
+footer {
+  max-width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: row;
+  display: flex;
+}
+
+.footimg{
+  width: 30px;;
+  max-width: 100%;
+  height: 40px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.foottext {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+* {box-sizing:border-box}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+.homeflex h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  background-color: lightgrey;
+  max-width: 100%;
+  width: 100px;
+  margin: auto;
+  padding: 5px;
+}
+
+.homeflex h2 {
+  font-family: 'Contrail One', cursive;
+  font-size: 24px;
+}
+
+.homeflex p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.homeflex a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: pink;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.homeflex {
+  text-align: center;
+}
+
+.homeflextext {
+  margin-top: 20px;
+}
+
+
+.artboard {
+  max-width: 100%;
+  width: 500px;
+}
+
+
+.galbutton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#specialimg {
+  max-width: 100%;
+  padding-top: 60px;
+}
+
+.artistdisplay {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+#artimage {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.artimg {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+
+.artistdisplay1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.artimage1 {
+  max-width: 100%;
+}
+
+.artimg1 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.burger {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  display: none;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+.show {
+  display: block;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+
+.btn.active {
+    background-color: #666;
+   color: white;
+   font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.flexmain {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktext {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+
+
+
+.artrow {
+  margin: 8px -16px;
+}
+
+
+.artrow,
+.artrow > .artcolumn {
+  padding: 8px;
+}
+
+.artcolumn {
+  float: left;
+  width: 50%;
+}
+
+
+.artrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aboutflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.content2 {
+  width: 100%;
+}
+
+
+
+
+.sidepanel {
+  height: 250px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#myBtnContainer {
+  display: none;
+}
+
+.mobtop {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: pink;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Contrail One', cursive;
+  margin-left: 30px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightgrey;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+#heartbtn {
+  width: 40px;
+  position: absolute;
+}
+
+#weekly {
+  font-family: 'Contrail One', cursive;
+  font-size: 25px;
+}
+
+#maishead {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  border: 30px;
+}
+
+#maisdesc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+#featuretext {
+  margin-left: 20px;
+}
+
+#maisbtn {
+  background-color: white;
+  border-left-width: 10px;
+  border-left-color: rgb(247, 181, 182);
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+#maisbtn2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.artintro {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 50%;
+}
+
+ #artlinks {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.artistxt {
+  font-size: 20px;
+  font-family: 'Contrail One', cursive;
+  text-align: center;
+}
+
+#artheader {
+  background-image: url(./images/artisthome/background.png);
+  background-size: 400px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 9px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#arthead {
+  font-size: 30px;
+  font-family: 'Contrail One', cursive;
+  margin: 0;
+  opacity: 100%;
+}
+
+#artheadtext {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+#grouptext {
+  text-align: center;
+}
+
+.help {
+  background-image: url(./images/home/carouselmob1.png);
+  background-size: 550px;
+  max-height: 100%;
+  height: 339px;
+}
+
+.artistsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.beckyhead {
+  background-image: url(./images/artisthome/background.png);
+  background-size: cover;
+  font-family: 'Contrail One', cursive;
+}
+
+.beckytitle {
+  margin-bottom: 0;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.beckyimg {
+  max-width: 100%;
+  width: 300px;
+}
+
+.beckyflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artists-text {
+  text-align: center;
+}
+
+
+.introvideo{
+  margin-bottom: 70px;
+}
+
+.videoflex {
+  display: flex;
+  justify-content: center;
+}
+
+.infovid {
+  font-size: 25px;
+  font-family: 'Contrail One', cursive;
+  padding-left: 20px;
+}
+
+.videocontrols {
+  max-width: 100%;
+  width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row3 > .column3 {
+  padding: 0 8px;
+  padding-top: 20px;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column3 {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-image: url(./images/artisthome/background.png);
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.mySlides3 {
+  display: none;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+  max-width: 100%;
+  width: 200px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artist-gallery {
+  max-width: 100%;
+  width: 300px;
+}
+
+.art-title {
+  font-size: 20px;
+  font-family: 'Contrail One', cursive;
+  text-align: left;
+}
+
+.art-descrip {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 15px;
+}
+
+.arttext {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.artists-head {
+  font-family: 'Contrail One', cursive;
+  font-size: 15px;
+  text-align: left;
+}
+
+.artists-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-align: left;
+}
+
+.top-section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.art-intro {
+  background-color: pink;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.singleintro {
+  padding-left: 20px;
+}
+
+.singleintrohead {
+  font-family: 'Contrail One', cursive;
+  font-size: 25px;
+}
+
+.singledescript {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.socialbubble {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.socials {
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.weblink {
+  text-decoration: none;
+  color: black;
+  font-family: 'Contrail One', cursive;
+}
+
+#abouthead {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#aboutwelcome {
+  font-family: 'Contrail One', cursive;
+  font-size: 25px;
+  margin: 0;
+}
+
+#knowme {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+#abouttxt p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+#aboutimg {
+  padding-bottom: 30px;
+}
+
+.form-uname label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+}
+
+.form-sub {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.wrapper {
+  max-width: 100%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nameform {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-wrap h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-wrap h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-wrap h2 {
+  font-family: 'Contrail One', cursive;
+  font-size: 25px;
+}
+
+#form-wrap h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+#form-wrap {
+  padding-top: 40px;
+}
+
+#result {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+#nameField {
+  width: 250px;
+  max-width: 100%;
+}
+
+#subButton {
+  background: white;
+  color: black;
+  background-color: white;
+  border-left-width: 10px;
+  border-color: pink;
+  font-family: 'Contrail One', cursive;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.playlist h2{
+  font-family: 'Contrail One', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.playlist p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+
+.playlist-text {
+  padding-bottom:20px;
+}
+
+.playlist {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+  padding-bottom: 30px;
+}
+
+#spotify {
+  width: 300px;
+  height: 380px;
+  max-width: 100%;
+}
+
+.mobtext {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: black;
+}
+
+.box img {
+  width: 100%;
+}
+
+.weblink2 img {
+  max-width: 100%;
+  width: 50px;
+}
+
+#historytext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#frida {
+  max-width: 100%;
+  width: 800px;
+}
+
+#hiscaption {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px;
+  margin: 0;
+  text-align: center;
+  color: grey;
+}
+
+#change h3 {
+  font-family: 'Contrail One', cursive;
+  font-size: 20px;
+  text-align: center;
+  max-width: 100%;
+}
+
+#histvideo {
+  max-width: 100%;
+  margin-top: 30px;
+  width: 1000px;
+}
+
+.histquote {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: pink;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.histquote h3{
+  font-family: 'Contrail One', cursive;
+  font-size: 16px;
+}
+
+.histquote h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+#instaabout {
+  max-width: 100%;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sociallink img {
+  max-width: 100%;
+  width: 50px;
+}
+
+.sociallink {
+  text-align-last: center;
+}
+
+@media screen and (min-width: 400px) {
+
+  .arttext {
+    padding-left: 70px;
+    padding-right: 50px;
+  }
+
+  #frida2 {
+    display: none;
+  }
+
+
+}
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 500px) {
+
+  #spotify {
+    width: 500px;
+    height: 580px;
+    max-width: 100%;
+  }
+
+  .column {
+    width: 33.33%;
+  }
+
+  .artcolumn {
+    width: 33.33%;
+  }
+
+  .aboutflex {
+    flex-direction: column;
+  }
+
+  .content2 {
+    width: 100%;
+  }
+
+  .artistsection {
+    width: 50%;
+    float: left;
+  }
+
+  .artintro {
+    width: 280px;
+  }
+
+#artrow2 {
+  height: 800px;
+  padding-top: 30px;
+}
+
+#artheadtext {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+#arthead {
+  font-size: 40px;
+}
+
+.artistxt {
+  font-size: 30px;
+}
+
+.beckyflex {
+  flex-direction: column;
+}
+
+.beckytitle {
+  font-size: 48px;
+}
+
+.beckyimg {
+  width: 450px;
+  padding-left: 20px;
+}
+
+.videocontrols {
+  width: 900px;
+}
+
+.infovid {
+  font-size: 40px;
+  margin: 0;
+}
+
+.column3 {
+  flex-direction: row;
+}
+
+.artists-head {
+  font-size: 29px;
+}
+
+.artists-text {
+  font-size: 20px;
+}
+
+.top-section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#abouttxt p {
+  font-size: 18px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+#abouttext {
+  text-align-last: center;
+}
+
+#aboutimg {
+  max-width: 100%;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutwelcome {
+  font-size: 40px;
+}
+
+#knowme {
+  font-size: 23px;
+}
+
+.artboard {
+  width: 700px;
+}
+
+.playlist h2 {
+  font-size: 40px;
+}
+
+.playlist p {
+  font-size: 24px;
+}
+
+#form-wrap h2 {
+  font-size: 40px;
+  text-align: center;
+}
+#form-wrap h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+#result {
+  font-size: 24px;
+}
+
+.form-sub {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#nameField {
+  height: 35px;
+  width: 500px;
+}
+
+#subButton {
+  font-size: 20px;
+}
+
+#weekly {
+  font-size: 40px;
+}
+
+#featuretext h4 {
+  font-size: 24px;
+}
+
+#featuretext p {
+  font-size: 24px;
+}
+
+#maisbtn2 {
+  font-size: 18px;
+}
+
+#featuretext {
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.weblink2 img {
+  max-width: 100%;
+  width: 100px;
+}
+
+.weblink {
+  font-size: 20px;
+  color: black;
+}
+
+.foottext {
+  font-size: 20px;
+}
+
+.footimg {
+  width: 50px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+#historytext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.histquote {
+  width: 700px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.histquote h3{
+  font-size: 28px;
+}
+
+.histquote h4{
+  font-size: 23px;
+}
+
+#historytext {
+  font-size: 22px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#histcaption {
+  font-size: 15px;
+}
+
+#frida {
+  width: 1000px;
+}
+
+}
+
+@media screen and (min-width: 700px) {
+  .homeflex {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .homeflextext {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .homefleximg {
+    width: 50%;
+
+  }
+
+  .artboard {
+    width: 500px;
+  }
+
+
+}
+
+
+
+
+@media screen and (min-width: 820px) {
+
+  .beckyflex {
+    flex-direction: row;
+  }
+
+  .singleintrohead {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .singledescript {
+    font-size: 30px;
+  }
+
+  .galleryart {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+
+  .artist-gallery {
+    width: 400px;
+  }
+
+  .art-title {
+    font-size: 35px;
+  }
+
+  .art-descrip {
+    font-size: 25px;
+  }
+
+  .aboutflex {
+    flex-direction: row;
+  }
+
+  .content2 {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+#aboutimg {
+  padding-left: 30px;
+}
+
+
+}
+
+
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1000px) {
+
+
+  .artistdisplay1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .artimage1 {
+    max-width: 100%;
+  }
+
+  .artimg1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+  }
+
+
+  .mobtop {
+    display: none;
+  }
+
+  .direct {
+    color: pink;
+  }
+
+  body {
+    background: white;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  #flexhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #flexmenu {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  .headtext {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .headtext:hover {
+    color: pink;
+    transition: .5s ease;
+
+
+  }
+
+  .notactive {
+    color: black;
+  }
+
+
+
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown1 {
+    float: left;
+    overflow: hidden;
+  }
+
+
+  .dropdown1 .dropbtn1 {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .dropdown-content1 a:hover {
+    background-color: #ddd;
+  }
+
+
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+
+  .line {
+    height: 2px;
+  }
+
+  .flexmain {
+    flex-direction: row;
+  }
+
+
+  .mobtext {
+    display: none;
+  }
+
+
+  .box {
+    position: relative;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    display: inline;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: pink;
+  }
+
+  .box:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .artcolumn {
+    width: 16.66%;
+  }
+
+  #myBtnContainer {
+    display: block;
+    padding-left: 20px;
+  }
+  .sidepanel {
+    display: none;
+  }
+  .dropdown {
+    display: none;
+  }
+
+  .column {
+    width: 25%;
+  }
+
+  .artistsection {
+    width: 33.33%;
+    float: left;
+  }
+
+  .column3 {
+    flex-direction: column;
+    width: 25%;
+  }
+
+  .artists-head {
+    font-size: 35px;
+  }
+
+  .artists-text {
+    font-size: 30px;
+  }
+
+  .infovid {
+    font-size: 45px;
+    padding-left: 40px;
+    border-bottom: 2px;
+    border-color: pink;
+  }
+
+  .videocontrols {
+    width: 1200px;
+  }
+
+#aboutimg {
+  width: 650px;
+}
+
+#abouttxt p {
+  font-size: 22px;
+  padding-right: 40px;
+}
+
+#aboutwelcome {
+  font-size: 50px;
+}
+
+#knowme {
+  font-size: 25px;
+}
+
+#abouthead {
+  margin-top: 40px;
+}
+.artboard {
+  width: 1000px;
+}
+
+.homeflex h1 {
+  font-size: 15px;
+  width: 140px;
+}
+
+.homeflex h2 {
+  font-size: 30px;
+}
+
+.homeflex p {
+  font-size: 20px;
+}
+
+.homeflex a {
+  font-size: 15px;
+}
+
+.flexmain {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#form-wrap {
+  margin: auto;
+}
+
+#special {
+  display: flex;
+  flex-direction: row;
+}
+
+#specialimg {
+  width: 50%;
+  padding-top: 0;
+}
+
+#featuretext {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.socials {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.weblink2 img {
+  transition: transform .7s ease-in-out;
+}
+
+.weblink2 img:hover {
+  transform: rotate(360deg)
+}
+
+.weblink{
+  transition: all .2s ease-in-out;
+  font-size: 30px;
+}
+
+.weblink:hover {
+  transform: scale(1.1);
+}
+
+#maisbtn2 {
+  position: relative;
+ display: inline-block;
+ font-weight: 800;
+ color: black;
+ overflow: hidden;
+}
+
+#maisbtn2 {
+  background: linear-gradient(to right, pink, pink 50%, black 50%);
+}
+
+#maisbtn2 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+#maisbtn2 {
+  transition: background-position 275ms ease;
+}
+#maisbtn2:hover {
+  background-position: 0 100%;
+}
+
+#frida {
+  display: none;
+}
+
+#frida2 {
+  display:block;
+  width: 600px;
+  max-width: 100%;
+}
+
+.histextdesign {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.imgcap {
+  margin-right: 40px;
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fridaquote {
+  display: flex;
+  flex-direction: row;
+}
+
+#histvideo {
+  width: 1300px;
+}
+
+.ytvid {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.histquote {
+  transition: 0.3s;
+}
+
+.histquote:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.artcolumn a{
+  transition: 0.3s;
+}
+
+.artcolumn a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sociallink img {
+  transition: transform .7s ease-in-out;
+}
+
+.sociallink img:hover {
+  transform: rotate(360deg)
+}
+
+}
