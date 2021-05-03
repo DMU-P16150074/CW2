@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danielle Weber - Pretty Face </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="./images/home/icon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div id="flexhead" >
+      <div class="headerimg">
+          <a href="index.html">
+            <img src="./images/home/header.png" alt="logo" class="responsive">
+          </a>
+        </div>
+        <div id="flexmenu">
+          <a class="headtext notactive" href="gallery.html">GALLERY</a>
+      <div class="dropdown1">
+        <button class="dropbtn1"></button>
+          <a class="headtext notactive" href="artistpage.html">ARTISTS</a>
+     <div class="dropdown-content1">
+          <a href="grace.html"> Grace Weaver</a>
+          <a href="becky.html"> Becky Koslrud</a>
+          <a href="danielle.html"> Danielle Weber</a>
+          <a href="jess.html">Jess Swan</a>
+          <a href="maisey.html">Maisey Clark</a>
+          <a href="sophie.html">Sophie Tea</a>
+        </div>
+      </div>
+
+      <div class="dropdown1">
+        <button class="dropbtn1"></button>
+          <a class="headtext notactive" href="about.html">ABOUT</a>
+     <div class="dropdown-content1">
+          <a href="about.html"> About us</a>
+          <a href="women.html"> Why women?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="burger">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="artistpage.html">Artists</a>
+          <a href="about.html">About</a>
+          <a href="women.html">Why women?</a>
+        </div>
+      </div>
+      <div class="mobhead">
+      <span onclick="openNav()">
+        <label id="hamburger" class="burger">&#9776;</label>
+      </span>
+        <a class="mobheader" href="index.html">
+          <img src="./images/home/header.png" alt="logo" class="mobheader">
+        </a>
+      </div>
+      </div>
+
+
+    <div class="line" ></div>
+
+    <section class="beckyhead">
+      <h2 class="beckytitle"> DANIELLE WEBER </h2>
+    </section>
+
+    <section class="art-intro">
+      <div class="beckyflex">
+      <img class="beckyimg" src="./images/artisthome/daniellecircle2.png" alt="">
+        <div class="top-section">
+          <h1 class="artists-head"> "I have always loved creativity!" </h1>
+          <p class="artists-text"> I am a full-time artist and muralist in which
+             my work then extends to prints, puzzles, apparel and more. I have
+             always loved and embraced creativity and art and have been painting
+             consistently for about 10 years.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="introvideo">
+      <h2 class="infovid"> FIND OUT MORE </h2>
+        <div class="videoflex">
+          <video class="videocontrols" poster="./images/thumbnails/daniellethumb.png" controls>
+            <source src="./video/danielleart.mp4" type="video/mp4">
+            <source src="./video/danielleart.webm" type="video/webm">
+            <source src="./video/danielleart.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+    </section>
+
+<section class="galleryart">
+  <div class="singleintro">
+    <h3 class="singleintrohead">THEIR WORK</h3>
+    <p class="singledescript">Find out more about their work by looking into their individual pieces. </p>
+  </div>
+    <div class="row3">
+      <div class="column3">
+        <img src="./images/gallery/danielle/carouself.png" alt="Woman" onclick="openModal();currentSlide(1)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Women</h1>
+            <p class="art-descrip">Danielle is amazing when it comes to detail,
+              this is amazing.</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/danielle/husslef.png" alt="Hussle" onclick="openModal();currentSlide(2)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Hussle</h1>
+            <p class="art-descrip">A fantastic mural, that gave her the big break.</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/danielle/monkeysf.png" alt="Monkeys" onclick="openModal();currentSlide(3)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Monkeys</h1>
+            <p class="art-descrip">She always manages to show her fun side when
+              you see her work.</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/danielle/muralf.png" alt="Mural" onclick="openModal();currentSlide(4)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Mural</h1>
+            <p class="art-descrip">The scale of her work has no limits.</p>
+          </div>
+      </div>
+      <div class="column3">
+        <img src="./images/gallery/danielle/queenf.png" alt="Queen" onclick="openModal();currentSlide(3)" class="hover-shadow artist-gallery">
+          <div class="arttext">
+            <h1 class="art-title">Queen</h1>
+            <p class="art-descrip">One of the best murals for one of the best
+              bands, Queen.</p>
+          </div>
+      </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides3">
+          <div class="numbertext">1 / 5</div>
+          <img src="./images/gallery/danielle/carouself.png" alt="Woman" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">2 / 5</div>
+          <img src="./images/gallery/danielle/husslef.png" alt="Hussle" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">3 / 5</div>
+          <img src="./images/gallery/danielle/monkeysf.png" alt="Monkeys" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">4 / 5</div>
+          <img src="./images/gallery/danielle/muralf.png" alt="Mural" style="width:100%">
+        </div>
+
+        <div class="mySlides3">
+          <div class="numbertext">5 / 5</div>
+          <img src="./images/gallery/danielle/queenf.png" alt="Queen" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column4">
+          <img class="demo" src="./images/gallery/danielle/carouself.png" onclick="currentSlide(1)" alt="Woman">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/danielle/husslef.png" onclick="currentSlide(2)" alt="Hussle">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/danielle/monkeysf.png" onclick="currentSlide(3)" alt="Monkeys">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/danielle/muralf.png" onclick="currentSlide(4)" alt="Girl">
+        </div>
+
+        <div class="column4">
+          <img class="demo" src="./images/gallery/danielle/queenf.png" onclick="currentSlide(4)" alt="Queen">
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="socials">
+    <div class="socialbubble">
+      <a class="weblink2" href="https://www.instagram.com/daniellesartwork/?hl=en">
+        <img src="./images/home/insta.png" alt="Instagram logo">
+      </a>
+      <a href="https://www.daniellesartwork.com/">
+        <h4 class="weblink">DaniellesArtwork.com</h4>
+      </a>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+  <div id="line" ></div>
+    <img class="footimg" src="./images/logos/logo.png" alt="Footer logo">
+    <div style="flex-grow: 8" class="foottext">
+      <h4> 	&#169; 2021 NOT JUST A PRETTY FACE </h4>
+      <h5> SITE BY AMBER ABBOTT </h5>
+    </div>
+</footer>
+
+
+
+    <script src="artistsscript.js"></script>
+
+
+  </body>
+</html>
